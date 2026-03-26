@@ -1,4 +1,4 @@
-# CHemia
+# ChemiaAPP
 
 Aplikacja mobilna na Androida do nauki chemii w formie quizu.
 
