@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark_primary"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_title"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/settings_username_label"
+            android:textColor="@color/text_dimmed"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/input_username"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/card_background"
+            android:hint="@string/settings_username_hint"
+            android:importantForAutofill="no"
+            android:inputType="textVisiblePassword"
+            android:maxLength="12"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="@color/text_dimmed"
+            android:layout_marginBottom="20dp" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switch_sound"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_background"
+            android:padding="14dp"
+            android:text="@string/settings_sound"
+            android:textColor="@color/white"
+            android:layout_marginBottom="12dp" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switch_haptics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card_background"
+            android:padding="14dp"
+            android:text="@string/settings_haptics"
+            android:textColor="@color/white"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btn_save_settings"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/button_primary"
+            android:text="@string/settings_save"
+            android:textColor="@color/white"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/btn_back_menu"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/button_outline"
+            android:text="@string/settings_back"
+            android:textColor="@color/accent_blue" />
+
+    </LinearLayout>
+</ScrollView>
+

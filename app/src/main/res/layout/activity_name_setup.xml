@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_dark_primary"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_setup_title"
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="@string/name_setup_subtitle"
+        android:textColor="@color/text_dimmed"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/input_new_username"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/card_background"
+        android:hint="@string/name_setup_hint"
+        android:importantForAutofill="no"
+        android:inputType="textVisiblePassword"
+        android:maxLength="12"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:singleLine="true"
+        android:textColor="@color/white"
+        android:textColorHint="@color/text_dimmed" />
+
+    <TextView
+        android:id="@+id/name_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:minHeight="20dp"
+        android:textColor="@color/error_red"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/btn_confirm_username"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/button_primary"
+        android:text="@string/name_setup_confirm"
+        android:textColor="@color/white" />
+
+    <ProgressBar
+        android:id="@+id/name_setup_loading"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:indeterminate="true"
+        android:visibility="gone" />
+
+</LinearLayout>
+

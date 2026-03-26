@@ -1,0 +1,735 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "text": "Jaka jest wartościowość tlenu w cząsteczce H₂O?",
+      "category": "Wiązania chemiczne",
+      "level": 2,
+      "options": ["+1", "-2", "+2", "-1"],
+      "correctAnswerIndex": 1,
+      "explanation": "Tlen ma elektronu ujemność 3.44 — przyciąga 2 elektrony od wodoru."
+    },
+    {
+      "id": 2,
+      "text": "Ile moli wody powstaje ze spalenia 2 moli metanu?",
+      "category": "Stechiometria",
+      "level": 2,
+      "options": ["1 mol", "2 mole", "4 mole", "8 moli"],
+      "correctAnswerIndex": 2,
+      "explanation": "Równanie: CH₄ + 2O₂ → CO₂ + 2H₂O. Z 2 mol CH₄ powstaje 4 mol H₂O."
+    },
+    {
+      "id": 3,
+      "text": "Co to jest liczba Avogadro?",
+      "category": "Układ okresowy",
+      "level": 1,
+      "options": ["6.022 × 10²²", "6.022 × 10²³", "6.022 × 10²⁴", "6.022 × 10²¹"],
+      "correctAnswerIndex": 1,
+      "explanation": "Liczba Avogadro wynosi 6.022 × 10²³ cząstek/mol."
+    },
+    {
+      "id": 4,
+      "text": "Jaki jest pH roztworu o pOH = 3?",
+      "category": "Kwasy i zasady",
+      "level": 2,
+      "options": ["pH = 11", "pH = 10", "pH = 3", "pH = 14"],
+      "correctAnswerIndex": 0,
+      "explanation": "pH + pOH = 14, więc pH = 14 - 3 = 11"
+    },
+    {
+      "id": 5,
+      "text": "Ile elektronów ma atom sodu (Na)?",
+      "category": "Układ okresowy",
+      "level": 1,
+      "options": ["10", "11", "12", "23"],
+      "correctAnswerIndex": 1,
+      "explanation": "Sód (Na) ma liczbę atomową 11, czyli 11 elektronów w stanie neutralnym."
+    },
+    {
+      "id": 6,
+      "text": "Co to jest reakcja egzotermiczna?",
+      "category": "Reakcje",
+      "level": 1,
+      "options": [
+        "Reakcja wymagająca dostarczenia energii",
+        "Reakcja uwalniająca energię (ciepło)",
+        "Reakcja wytwarzająca gaz",
+        "Reakcja wytwarzająca sól"
+      ],
+      "correctAnswerIndex": 1,
+      "explanation": "Reakcja egzotermiczna to taka, która uwalnia energię w postaci ciepła."
+    },
+    {
+      "id": 7,
+      "text": "Jaki jest stan oksydacyjny węgla w CO₂?",
+      "category": "Wiązania chemiczne",
+      "level": 2,
+      "options": ["+2", "+4", "+3", "-2"],
+      "correctAnswerIndex": 1,
+      "explanation": "W CO₂ każdy tlen ma -2, więc węgiel musi mieć +4: C + 2(-2) = 0."
+    },
+    {
+      "id": 8,
+      "text": "Co oznacza skrót ATP?",
+      "category": "Chemia organiczna",
+      "level": 1,
+      "options": [
+        "Adenozyna trifosforan",
+        "Adenozyna tetrafosoran",
+        "Adeniną trioksyd fosfor",
+        "Proces transferu atomów"
+      ],
+      "correctAnswerIndex": 0,
+      "explanation": "ATP - Adenozyna trifosforan, uniwersalny nośnik energii w komórkach."
+    },
+    {
+      "id": 9,
+      "text": "Ile jonów zawiera jeden mol NaCl?",
+      "category": "Stechiometria",
+      "level": 2,
+      "options": ["6.022 × 10²³", "2 × 6.022 × 10²³", "3 × 6.022 × 10²³", "0.5 × 6.022 × 10²³"],
+      "correctAnswerIndex": 1,
+      "explanation": "NaCl rozpada się na Na⁺ i Cl⁻, czyli 2 jony na cząsteczkę × N_A."
+    },
+    {
+      "id": 10,
+      "text": "Która z tych substancji jest węglowodorem?",
+      "category": "Chemia organiczna",
+      "level": 1,
+      "options": ["H₂O", "NH₃", "CH₄", "NaCl"],
+      "correctAnswerIndex": 2,
+      "explanation": "CH₄ (metan) to węgiel + wodór. Pozostałe substancje zawierają inne pierwiastki."
+    },
+    {
+      "id": 11,
+      "text": "Jaką walencję ma chlor w jonach chlorkowych?",
+      "category": "Wiązania chemiczne",
+      "level": 1,
+      "options": ["1", "3", "5", "7"],
+      "correctAnswerIndex": 0,
+      "explanation": "Chlor w jonach chlorkowych (Cl⁻) ma walencję 1."
+    },
+    {
+      "id": 12,
+      "text": "Ile atomów tlenu zawiera cząsteczka H₂SO₄?",
+      "category": "Stechiometria",
+      "level": 1,
+      "options": ["1", "2", "3", "4"],
+      "correctAnswerIndex": 3,
+      "explanation": "Kwas siarkowy H₂SO₄ zawiera 4 atomy tlenu."
+    },
+    {
+      "id": 13,
+      "text": "Co to jest endoterm?",
+      "category": "Reaction",
+      "level": 2,
+      "options": ["Proces uwalniający ciepło", "Proces pochłaniający ciepło", "Proces elektrochemiczny", "Proces katalityczny"],
+      "correctAnswerIndex": 1,
+      "explanation": "Procesy endotermiczne to te, które pochłaniają energię z otoczenia."
+    },
+    {
+      "id": 14,
+      "text": "Jaka jest liczba atomowa argonu?",
+      "category": "Układ okresowy",
+      "level": 1,
+      "options": ["16", "18", "20", "22"],
+      "correctAnswerIndex": 1,
+      "explanation": "Argon (Ar) ma liczbę atomową 18."
+    },
+    {
+      "id": 15,
+      "text": "Ile elektronów znajduje się na ostatniej powłoce atomu tlenu?",
+      "category": "Układ okresowy",
+      "level": 2,
+      "options": ["4", "6", "8", "10"],
+      "correctAnswerIndex": 1,
+      "explanation": "Tlen ma na ostatniej powłoce 6 elektronów (konfiguracja 1s² 2s² 2p⁴)."
+    },
+    {
+      "id": 16,
+      "text": "Ile wiązań kowalencyjnych ma metan CH₄?",
+      "category": "Wiązania chemiczne,
+      "level": 1,
+      "options": ["2", "3", "4", "5"],
+      "correctAnswerIndex": 2,
+      "explanation": "Metan CH₄ ma 4 wiązania C-H."
+    },
+    {
+      "id": 17,
+      "text": "Jaki jest stan oksydacyjny azotu w NO₂?",
+      "category": "Wiązania chemiczne",
+      "level": 2,
+      "options": ["+2", "+3", "+4", "+5"],
+      "correctAnswerIndex": 1,
+      "explanation": "W NO₂ azot ma stan oksydacyjny +4."
+    },
+    {
+      "id": 18,
+      "text": "Ile moli gazu zajmuje molowa gęstość w warunkach normalnych?",
+      "category": "Stechiometria",
+      "level": 1,
+      "options": ["11.2 L", "22.4 L", "44.8 L", "67.2 L"],
+      "correctAnswerIndex": 1,
+      "explanation": "W warunkach standardowych (STP) jeden mol gazu zajmuje 22.4 L."
+    },
+    {
+      "id": 19,
+      "text": "Co to jest katalizator?",
+      "category": "Reaction",
+      "level": 1,
+      "options": ["Substancja zmieniająca szybkość reakcji", "Produkt reakcji", "Reagent zmniejszający ciepło", "Bariera energetyczna"],
+      "correctAnswerIndex": 0,
+      "explanation": "Katalizator to substancja, która zmienia szybkość reakcji bez ulegania zmianie."
+    },
+    {
+      "id": 20,
+      "text": "Ile neutronów ma atom węgla-12?",
+      "category": "Układ okresowy",
+      "level": 1,
+      "options": ["6", "12", "18", "24"],
+      "correctAnswerIndex": 0,
+      "explanation": "Węgiel-12 ma 6 neutronów (liczba masowa 12 - liczba atomowa 6 = 6 neutronów)."
+    },
+    {
+      "id": 21,
+      "text": "Jaka jest grupa pierwiastków zwana halogenikami?",
+      "category": "Układ okresowy",
+      "level": 1,
+      "options": ["Grupa 1", "Grupa 13", "Grupa 17", "Grupa 18"],
+      "correctAnswerIndex": 2,
+      "explanation": "Halogeny znajdują się w grupie 17 (VIIA) - F, Cl, Br, I."
+    },
+    {
+      "id": 22,
+      "text": "Ile protonów ma atom żelaza (Fe)?",
+      "category": "Układ okresowy",
+      "level": 1,
+      "options": ["20", "26", "30", "34"],
+      "correctAnswerIndex": 1,
+      "explanation": "Żelazo (Fe) ma liczbę atomową 26, czyli 26 protonów."
+    },
+    {
+      "id": 23,
+      "text": "Czy polimeryzacja jest reakcją endotermiczną czy egzotermiczną?",
+      "category": "Reaction",
+      "level": 2,
+      "options": ["Zawsze endotermiczna", "Zawsze egzotermiczna", "Może być obydwoma", "Nie wiadomo"],
+      "correctAnswerIndex": 1,
+      "explanation": "Polimeryzacja jest typowo reaktywna i egzotermiczna."
+    },
+    {
+      "id": 24,
+      "text": "Jaki jest wzór strukturalny etanu?",
+      "category": "Chemia organiczna",
+      "level": 2,
+      "options": ["CH₄", "C₂H₆", "C₃H₈", "C₂H₄"],
+      "correctAnswerIndex": 1,
+      "explanation": "Etan ma wzór C₂H₆ - dwa atomy węgla i sześć atomów wodoru."
+    },
+    {
+      "id": 25,
+      "text": "Ile energii wymaga zerwanie wiązania wodorowego?",
+      "category": "Wiązania chemiczne",
+      "level": 2,
+      "options": ["~5 kJ/mol", "~20 kJ/mol", "~100 kJ/mol", "~400 kJ/mol"],
+      "correctAnswerIndex": 1,
+      "explanation": "Wiązania wodorowe wymagają około 20 kJ/mol energii do zerwania."
+    },
+    {
+      "id": 26,
+      "text": "Co to jest izomer?",
+      "category": "Chemia organiczna",
+      "level": 1,
+      "options": ["Atom o różnej liczbie neutronów", "Cząsteczka o tym samym wzorze, innym ułożeniu", "Pierwiastek radioaktywny", "Substancja rozpuszczalna w wodzie"],
+      "correctAnswerIndex": 1,
+      "explanation": "Izomery to cząsteczki o tym samym wzorze cząsteczkowym, ale innym ułożeniu atomów."
+    },
+    {
+      "id": 27,
+      "text": "Jakie jest stężenie jonów H⁺ w roztworze o pH = 5?",
+      "category": "Kwasy i zasady",
+      "level": 2,
+      "options": ["10⁻³ M", "10⁻⁵ M", "10⁻⁷ M", "10⁻⁹ M"],
+      "correctAnswerIndex": 1,
+      "explanation": "pH = -log[H⁺], więc pH 5 oznacza [H⁺] = 10⁻⁵ M."
+    },
+    {
+      "id": 28,
+      "text": "Jaki jest iloczyn jonowy wody (Kw)?",
+      "category": "Kwasy i zasady",
+      "level": 2,
+      "options": ["10⁻⁷", "10⁻¹⁴", "10⁻²¹", "10⁻²⁸"],
+      "correctAnswerIndex": 1,
+      "explanation": "Iloczyn jonowy wody Kw = [H⁺][OH⁻] = 10⁻¹⁴ w 25°C."
+    },
+    {
+      "id": 29,
+      "text": "Ile elektronów ma na ostatniej powłoce atom potasu (K)?",
+      "category": "Układ okresowy",
+      "level": 1,
+      "options": ["1", "3", "5", "7"],
+      "correctAnswerIndex": 0,
+      "explanation": "Potas ma na ostatniej powłoce 1 elektron (1s² 2s² 2p⁶ 3s² 3p⁶ 4s¹)."
+    },
+    {
+      "id": 30,
+      "text": "Co to jest dysocjacja elektrolityczna?",
+      "category": "Kwasy i zasady",
+      "level": 1,
+      "options": ["Rozkład cząsteczek na jony", "Łączenie jonów w cząsteczki", "Elektrochemiczna utlenienie", "Procesy redukcji"],
+      "correctAnswerIndex": 0,
+      "explanation": "Dysocjacja elektrolityczna to proces rozkładu cząsteczek na jony w roztworze."
+    },
+    {
+      "id": 31,
+      "text": "Jaka jest masa molowa NaCl?",
+      "category": "Stechiometria",
+      "level": 1,
+      "options": ["23 g/mol", "35.5 g/mol", "58.5 g/mol", "97 g/mol"],
+      "correctAnswerIndex": 2,
+      "explanation": "NaCl: Na (23) + Cl (35.5) = 58.5 g/mol."
+    },
+    {
+      "id": 32,
+      "text": "Ile elektronów znajduje się w orbitalu d?",
+      "category": "Układ okresowy",
+      "level": 2,
+      "options": ["2", "6", "10", "14"],
+      "correctAnswerIndex": 2,
+      "explanation": "Orbital d może zawierać maksymalnie 10 elektronów."
+    },
+    {
+      "id": 33,
+      "text": "Co to jest węglopędna?",
+      "category": "Chemia organiczna",
+      "level": 1,
+      "options": ["Związek zawierający węgiel i tlen", "Związek węgla i wodoru", "Związek węgla, wodoru i tlenu", "Związek zwany hydrokarbonem"],
+      "correctAnswerIndex": 2,
+      "explanation": "Węglowodany to związki węgla, wodoru i tlenu (C, H, O)."
+    },
+    {
+      "id": 34,
+      "text": "Jakie są stopnie utlenienia żelaza w Fe₂O₃?",
+      "category": "Wiązania chemiczne",
+      "level": 2,
+      "options": ["+2", "+3", "+2 i +3", "+4"],
+      "correctAnswerIndex": 1,
+      "explanation": "W Fe₂O₃ żelazo ma stan oksydacyjny +3."
+    },
+    {
+      "id": 35,
+      "text": "Ile wiązań może tworzyć atom węgla?",
+      "category": "Wiązania chemiczne",
+      "level": 1,
+      "options": ["2", "3", "4", "5"],
+      "correctAnswerIndex": 2,
+      "explanation": "Węgiel może tworzyć maksymalnie 4 wiązania kowalencyjne."
+    },
+    {
+      "id": 36,
+      "text": "Co to jest roztwór buforowy?",
+      "category": "Kwasy i zasady",
+      "level": 2,
+      "options": ["Roztwór soli", "Roztwór słabego kwasu i jego soli", "Roztwór mocnego kwasu", "Roztwór destylowany"],
+      "correctAnswerIndex": 1,
+      "explanation": "Roztwór buforowy to mieszanina słabego kwasu i jego soli (lub słabej zasady i jej soli)."
+    },
+    {
+      "id": 37,
+      "text": "Jaka jest funkcja enzymów w organizmach?",
+      "category": "Chemia organiczna",
+      "level": 1,
+      "options": ["Dostarczanie energii", "Przyspieszanie reakcji biochemicznych", "Magazynowanie informacji", "Transport tlenu"],
+      "correctAnswerIndex": 1,
+      "explanation": "Enzymy to biologiczne katalizatory przyspieszające reakcje biochemiczne."
+    },
+    {
+      "id": 38,
+      "text": "Ile orbitali находится na powłoce p?",
+      "category": "Układ okresowy",
+      "level": 2,
+      "options": ["1", "3", "5", "7"],
+      "correctAnswerIndex": 1,
+      "explanation": "Powłoka p zawiera 3 orbitale (pₓ, pᵧ, pᵤ)."
+    },
+    {
+      "id": 39,
+      "text": "Co to jest aromatyczność w chemii organicznej?",
+      "category": "Chemia organiczna",
+      "level": 2,
+      "options": ["Zapach cząsteczki", "Stabilność pierścienia z delokalizacją elektronów", "Reaktywność alkenu", "Barwa związku"],
+      "correctAnswerIndex": 1,
+      "explanation": "Aromatyczność to stabilność cząsteczek pierścieniowych wynikająca z delokalizacji elektronów π."
+    },
+    {
+      "id": 40,
+      "text": "Jaka jest nazwa procesu, w którym atom ulatnia się bezpośrednio w gaz?",
+      "category": "Reaction",
+      "level": 1,
+      "options": ["Parowanie", "Sublimacja", "Kondensacja", "Topienie"],
+      "correctAnswerIndex": 1,
+      "explanation": "Sublimacja to proces przejścia bezpośrednio z fazy stałej do gazowej."
+    },
+    {
+      "id": 41,
+      "text": "Ile moli tlenu potrzeba do całkowitego spalenia 1 mola etanu?",
+      "category": "Stechiometria",
+      "level": 2,
+      "options": ["1 mol", "2.5 mol", "3.5 mol", "5 mol"],
+      "correctAnswerIndex": 2,
+      "explanation": "C₂H₆ + 3.5O₂ → 2CO₂ + 3H₂O, więc potrzeba 3.5 mol O₂."
+    },
+    {
+      "id": 42,
+      "text": "Jakie atomy tworzą wiązanie wodorowe?",
+      "category": "Wiązania chemiczne",
+      "level": 1,
+      "options": ["Węgiel i wodór", "Wodór i azot/tlen/fluor", "Sód i chlor", "Żelazo i tlen"],
+      "correctAnswerIndex": 1,
+      "explanation": "Wiązania wodorowe tworzą się między wodorem a atomami N, O, F."
+    },
+    {
+      "id": 43,
+      "text": "Ile punktów krytycznych ma woda?",
+      "category": "Reaction",
+      "level": 1,
+      "options": ["0", "1", "2", "3"],
+      "correctAnswerIndex": 1,
+      "explanation": "Woda ma jeden punkt krytyczny w temperaturze 374°C i ciśnieniu 22 MPa."
+    },
+    {
+      "id": 44,
+      "text": "Co to jest twardość wody?",
+      "category": "Kwasy i zasady",
+      "level": 1,
+      "options": ["Gęstość wody", "Zawartość jonów Ca²⁺ i Mg²⁺", "pH wody", "Tlenek wody"],
+      "correctAnswerIndex": 1,
+      "explanation": "Twardość wody jest spowodowana obecnością jonów wapnia i magnezu."
+    },
+    {
+      "id": 45,
+      "text": "Jaka jest struktura benzenu?",
+      "category": "Chemia organiczna",
+      "level": 2,
+      "options": ["Łańcuch prosty", "Pierścień z alternującymi wiązaniami C=C", "Pierścień z delokalizacją elektronów π", "Struktura liniowa"],
+      "correctAnswerIndex": 2,
+      "explanation": "Benzen ma strukturę pierścienia aromatycznego z sześcioma węglami i delokalizacją elektronów."
+    },
+    {
+      "id": 46,
+      "text": "Ile elektronów walencyjnych ma chlor?",
+      "category": "Układ okresowy",
+      "level": 1,
+      "options": ["5", "6", "7", "8"],
+      "correctAnswerIndex": 2,
+      "explanation": "Chlor ma 7 elektronów walencyjnych (3s² 3p⁵)."
+    },
+    {
+      "id": 47,
+      "text": "Co to jest allotrop?",
+      "category": "Reaction",
+      "level": 1,
+      "options": ["Izomer atomowy", "Różna forma pierwiastka w tym samym stanie", "Substancja czystościowa", "Mieszanina homogeniczna"],
+      "correctAnswerIndex": 1,
+      "explanation": "Allotropy to różne formy tego samego pierwiastka (np. diament i grafit dla węgla)."
+    },
+    {
+      "id": 48,
+      "text": "Ile grup funkcyjnych ma aceton?",
+      "category": "Chemia organiczna",
+      "level": 1,
+      "options": ["1", "2", "3", "4"],
+      "correctAnswerIndex": 0,
+      "explanation": "Aceton (CH₃COCH₃) ma jedną grupę funkcyjną - keton C=O."
+    },
+    {
+      "id": 49,
+      "text": "Jakie jest stężenie OH⁻ w roztworze o pH = 11?",
+      "category": "Kwasy i zasady",
+      "level": 2,
+      "options": ["10⁻³ M", "10⁻⁷ M", "10⁻¹¹ M", "10⁻¹³ M"],
+      "correctAnswerIndex": 0,
+      "explanation": "pOH = 14 - 11 = 3, więc [OH⁻] = 10⁻³ M."
+    },
+    {
+      "id": 50,
+      "text": "Ile ładunków formalnych ma jon amoniaku NH₄⁺?",
+      "category": "Wiązania chemiczne",
+      "level": 2,
+      "options": ["+1", "-1", "0", "+2"],
+      "correctAnswerIndex": 0,
+      "explanation": "Jon amoniaku NH₄⁺ ma całkowity ładunek +1."
+    },
+    {
+      "id": 51,
+      "text": "Jaki jest procent masy węgla w metanie CH₄?",
+      "category": "Stechiometria",
+      "level": 2,
+      "options": ["67%", "75%", "80%", "85%"],
+      "correctAnswerIndex": 1,
+      "explanation": "C (12) / (12 + 4) = 12/16 = 75%."
+    },
+    {
+      "id": 52,
+      "text": "Co to jest promień jonowy?",
+      "category": "Układ okresowy",
+      "level": 1,
+      "options": ["Promień atomu neutralnego", "Promień jonu", "Promień kowalencyjny", "Promień van der Waalsa"],
+      "correctAnswerIndex": 1,
+      "explanation": "Promień jonowy to rozmiar jonu, różniący się od promienia atomu neutralnego."
+    },
+    {
+      "id": 53,
+      "text": "Ile rotacyjnych stopni swobody ma cząsteczka liniowa?",
+      "category": "Reaction",
+      "level": 2,
+      "options": ["2", "3", "4", "5"],
+      "correctAnswerIndex": 0,
+      "explanation": "Cząsteczka liniowa ma 2 rotacyjne stopnie swobody."
+    },
+    {
+      "id": 54,
+      "text": "Jakie jest stężenie molowe 10% roztworu NaCl?",
+      "category": "Stechiometria",
+      "level": 2,
+      "options": ["1.71 M", "1.20 M", "0.50 M", "2.50 M"],
+      "correctAnswerIndex": 0,
+      "explanation": "10% (10g/100mL) / (58.5 g/mol) ≈ 1.71 M."
+    },
+    {
+      "id": 55,
+      "text": "Co to jest entalpja?",
+      "category": "Reaction",
+      "level": 1,
+      "options": ["Energia całkowita", "Entalpia to mara ciepła w procesie przy stałym ciśnieniu", "Entropia", "Energia swobodna Gibbsa"],
+      "correctAnswerIndex": 1,
+      "explanation": "Entalpie (H) to miara ciepła w procesach przy stałym ciśnieniu."
+    },
+    {
+      "id": 56,
+      "text": "Ile pierścieni aromatycznych ma naftalen?",
+      "category": "Chemia organiczna",
+      "level": 1,
+      "options": ["1", "2", "3", "4"],
+      "correctAnswerIndex": 1,
+      "explanation": "Naftalen ma 2 zestalone pierścienie benzenu."
+    },
+    {
+      "id": 57,
+      "text": "Jaki rodzaj wiązania ma sól kuchenna NaCl?",
+      "category": "Wiązania chemiczne",
+      "level": 1,
+      "options": ["Kowalencyjne", "Metaliczne", "Jonowe", "Wodorowe"],
+      "correctAnswerIndex": 2,
+      "explanation": "NaCl ma wiązanie jonowe między Na⁺ a Cl⁻."
+    },
+    {
+      "id": 58,
+      "text": "Ile atomów ma cząsteczka dwutlenku węgla CO₂?",
+      "category": "Stechiometria",
+      "level": 1,
+      "options": ["1", "2", "3", "4"],
+      "correctAnswerIndex": 2,
+      "explanation": "CO₂ zawiera 3 atomy: jeden węgla i dwa tlenu."
+    },
+    {
+      "id": 59,
+      "text": "Co to jest redukcja w chemii?",
+      "category": "Reaction",
+      "level": 1,
+      "options": ["Zwększanie liczby utlenienia", "Zmniejszanie liczby utlenienia", "Łączenie się z tlenem", "Rozpad cząsteczki"],
+      "correctAnswerIndex": 1,
+      "explanation": "Redukcja to zmniejszanie stopnia utlenienia atomu (przejęcie elektronów)."
+    },
+    {
+      "id": 60,
+      "text": "Jaka jest masa molowa tlenu (O₂)?",
+      "category": "Stechiometria",
+      "level": 1,
+      "options": ["16 g/mol", "32 g/mol", "48 g/mol", "64 g/mol"],
+      "correctAnswerIndex": 1,
+      "explanation": "O₂ ma masę molową 32 g/mol (2 × 16)."
+    },
+    {
+      "id": 61,
+      "text": "Ile elektronów ma na ostatniej powłoce atom krzemu?",
+      "category": "Układ okresowy",
+      "level": 1,
+      "options": ["2", "4", "6", "8"],
+      "correctAnswerIndex": 1,
+      "explanation": "Krzem (Si) ma na ostatniej powłoce 4 elektrony."
+    },
+    {
+      "id": 62,
+      "text": "Co to jest elektrolit?",
+      "category": "Kwasy i zasady",
+      "level": 1,
+      "options": ["Substancja, która nie przewodzi prądu", "Substancja rozpuszcza się i dysocjuje na jony", "Металл ", "Gaz inertny"],
+      "correctAnswerIndex": 1,
+      "explanation": "Elektrolit to substancja, która w roztworze dysocjuje na jony i przewodzi prąd."
+    },
+    {
+      "id": 63,
+      "text": "Jakie jest pH neutralnego roztworu?",
+      "category": "Kwasy i zasady",
+      "level": 1,
+      "options": ["5", "7", "9", "11"],
+      "correctAnswerIndex": 1,
+      "explanation": "Roztwór neutralny ma pH = 7 (przy 25°C)."
+    },
+    {
+      "id": 64,
+      "text": "Ile grupy ma fluor w tabeli okresowej?",
+      "category": "Układ okresowy",
+      "level": 1,
+      "options": ["15", "16", "17", "18"],
+      "correctAnswerIndex": 2,
+      "explanation": "Fluor znajduje się w grupie 17 (halogeny)."
+    },
+    {
+      "id": 65,
+      "text": "Co to jest adycja w chemii organicznej?",
+      "category": "Chemia organiczna",
+      "level": 1,
+      "options": ["Usuwanie grupy atomów", "Dodawanie grupy atomów do wiązania", "Zastępowanie atomu", "Przegrupowanie atomów"],
+      "correctAnswerIndex": 1,
+      "explanation": "Adycja to dodanie grupy atomów do wiązania podwójnego lub potrójnego."
+    },
+    {
+      "id": 66,
+      "text": "Ile elektronów przejdzie w reaktecie oxidacyjno-redukcyjnej?",
+      "category": "Reaction",
+      "level": 2,
+      "options": ["Zależy od reagentów", "Zawsze 1", "Zawsze 2", "Zawsze 4"],
+      "correctAnswerIndex": 0,
+      "explanation": "Liczba przeniesionych elektronów zależy od stopni utlenienia reagentów."
+    },
+    {
+      "id": 67,
+      "text": "Co to jest wodorowęglan sodu (NaHCO₃)?",
+      "category": "Stechiometria",
+      "level": 1,
+      "options": ["Soda kaustyczna", "Soda oczyszczająca", "Sód wodny", "Kwas węglowy"],
+      "correctAnswerIndex": 1,
+      "explanation": "Wodorowęglan sodu (NaHCO₃) to soda oczyszczająca."
+    },
+    {
+      "id": 68,
+      "text": "Jakie są cztery stany skupienia materii?",
+      "category": "Reaction",
+      "level": 1,
+      "options": ["Stały, płynny, gazowy", "Stały, płynny, gazowy, plazma", "Tylko gazowy", "Tylko stały"],
+      "correctAnswerIndex": 1,
+      "explanation": "Cztery stany skupienia to: stały, płynny, gazowy i plazma."
+    },
+    {
+      "id": 69,
+      "text": "Ile walencji ma sód w NaCl?",
+      "category": "Wiązania chemiczne",
+      "level": 1,
+      "options": ["1", "2", "3", "4"],
+      "correctAnswerIndex": 0,
+      "explanation": "Sód ma walencję 1 w NaCl (tworzy Na⁺)."
+    },
+    {
+      "id": 70,
+      "text": "Co to jest trójpunkt wody?",
+      "category": "Reaction",
+      "level": 2,
+      "options": ["Temperatura topnienia", "Temperatura wrzenia", "Punkt, gdzie wszystkie trzy stany równoległy", "Temperatura krytyczna"],
+      "correctAnswerIndex": 2,
+      "explanation": "Trójpunkt wody to 273.16K, gdzie lód, woda i para są w równowadze."
+    },
+    {
+      "id": 71,
+      "text": "Ile atomów wodoru ma etanol C₂H₅OH?",
+      "category": "Chemia organiczna",
+      "level": 1,
+      "options": ["4", "5", "6", "7"],
+      "correctAnswerIndex": 2,
+      "explanation": "Etanol C₂H₅OH ma 6 atomów wodoru."
+    },
+    {
+      "id": 72,
+      "text": "Jakie są typy wiązań chemicznych?",
+      "category": "Wiązania chemiczne",
+      "level": 1,
+      "options": ["Tylko jonowe", "Jonowe, kowalencyjne, metaliczne", "Tylko kowalencyjne", "Tylko metaliczne"],
+      "correctAnswerIndex": 1,
+      "explanation": "Główne typy wiązań: jonowe, kowalencyjne i metaliczne."
+    },
+    {
+      "id": 73,
+      "text": "Ile elektronów jest w orbitalu f?",
+      "category": "Układ okresowy",
+      "level": 2,
+      "options": ["6", "10", "14", "18"],
+      "correctAnswerIndex": 2,
+      "explanation": "Orbital f może zawierać maksymalnie 14 elektronów."
+    },
+    {
+      "id": 74,
+      "text": "Co to jest ekstrapolacja w chemii?",
+      "category": "Reaction",
+      "level": 1,
+      "options": ["Obserwacja danych", "Predykcja poza zakres danych", "Średnia danych", "Sortowanie danych"],
+      "correctAnswerIndex": 1,
+      "explanation": "Ekstrapolacja to oszacowanie wartości poza znany zakres danych."
+    },
+    {
+      "id": 75,
+      "text": "Jaka jest liczba atomowa fosforu?",
+      "category": "Układ okresowy",
+      "level": 1,
+      "options": ["13", "15", "17", "19"],
+      "correctAnswerIndex": 1,
+      "explanation": "Fosfor (P) ma liczbę atomową 15."
+    },
+    {
+      "id": 76,
+      "text": "Co to jest chiralność w chemii?",
+      "category": "Chemia organiczna",
+      "level": 2,
+      "options": ["Reaktywność cząsteczki", "Vlastność cząsteczki, która jest nieident oczna ze swoim lustrzanym odbiciem", "Rozpuszczalność", "Gęstość"],
+      "correctAnswerIndex": 1,
+      "explanation": "Chiralność to asymetria molekularna - cząsteczka i jej lustrzane odbicie są nieidentyczne."
+    },
+    {
+      "id": 77,
+      "text": "Ile gramu HCl jest w 1L roztowru 1M?",
+      "category": "Stechiometria",
+      "level": 1,
+      "options": ["13.65 g", "36.5 g", "73 g", "109.5 g"],
+      "correctAnswerIndex": 1,
+      "explanation": "1M HCl = 1 mol/L × 36.5 g/mol = 36.5 g."
+    },
+    {
+      "id": 78,
+      "text": "Jakie są trzy prawa gazów doskonałych?",
+      "category": "Reaction",
+      "level": 2,
+      "options": ["Prawo Boyle'a, Charles'a i Avogadro", "Prawo Boyle'a, Gay-Lussaca i Avogadro", "Tylko jedno prawo", "Cztery prawa"],
+      "correctAnswerIndex": 0,
+      "explanation": "Trzy prawa gazów: Boyle'a (V∝1/P), Charles'a (V∝T) i Avogadro (V∝n)."
+    },
+    {
+      "id": 79,
+      "text": "Ile elektronów ma w zewnętrznej powłoce atom tlenu w H₂O?",
+      "category": "Wiązania chemiczne",
+      "level": 2,
+      "options": ["2", "4", "6", "8"],
+      "correctAnswerIndex": 2,
+      "explanation": "Tlen w H₂O ma 8 elektronów (2 z wiązań C-O + 2 pary samotne)."
+    },
+    {
+      "id": 80,
+      "text": "Co to jest stała szybkości reaktywności k?",
+      "category": "Reaction",
+      "level": 2,
+      "options": ["Szybkość reakcji", "Konstanta charakteryzująca szybkość reakcji", "Temperatura", "Ciśnienie"],
+      "correctAnswerIndex": 1,
+      "explanation": "Stała szybkości k charakteryzuje szybkość danej reaktywności w określonych warunkach."
+    }
+  ]
+}
+
